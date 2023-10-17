@@ -1,0 +1,105 @@
+/* Colors and fonts */
+
+body {
+    background: #F5F5F5; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    font-family: 'Arial', sans-serif; /* Arial font */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: normal; /* Normal font weight */
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+}
+
+h1 {
+    color: #0077B6; /* Dark blue text color */
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+h2 {
+    color: #0077B6; /* Dark blue text color */
+    font-size: 22px; /* Slightly larger font size */
+    font-weight: normal; /* Normal font weight */
+}
+
+a {
+    font-family: 'Arial', sans-serif; /* Arial font */
+    text-decoration: none;
+    color: #6B72E1; /* Light blue link color */
+    font-weight: bold; /* Bold font weight */
+    font-size: 18px; /* Slightly larger font size */
+}
+
+a:hover {
+    color: #333; /* Dark gray text color on hover */
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color: #E5E5E5; /* Light gray background */
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    max-width: 50%; /* To make the image adapt to the container's width */
+    height: auto;
+}
+
+.btn-blue {
+    background-color: #0077B6; /* Dark blue background */
+    color: #fff; /* White text color */
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: #fff; /* White background on hover */
+    color: #0077B6; /* Dark blue text color on hover */
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #333; /* Dark gray icon color */
+}
+
+.list-inline i:hover {
+    font-size: 50px;
+    color: blue; /* Light gray icon color on hover */
+}
+
+#introduction p {
+    margin: 40px;
+}
